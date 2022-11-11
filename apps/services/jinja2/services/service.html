@@ -116,10 +116,10 @@
                 <div class="container">
                   <div class="row">
                     {%- for project in projects -%}
-                      <div class="col-6 wow fadeIn">
+                      <a href="{{ project.get_absolute_url() }}"><div class="col-6 wow fadeIn">
                         <div class="price-box project-box" style="height: 80%;">
                           {%- if project.title -%}
-                            <h6 style="font-size: 14px;"><a href="{{ project.get_absolute_url() }}">{{ project.title }}</a></h6>
+                            <h6 style="font-size: 14px;">{{ project.title }}</h6>
                           {%- endif -%}
 
                           {%- if project.excerpt -%}
@@ -132,7 +132,7 @@
                             </a>
                           {%- endif -%}
                         </div>
-                      </div>
+                      </div></a>
                     {%- endfor -%}
                   </div>
                 </div>
