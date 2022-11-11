@@ -13,6 +13,10 @@
 {{ page.header_font_color }}
 {% endblock -%}
 
+{% block MENU_ICON_COLOR %}
+{{ page.header_font_color }}
+{% endblock %}
+
 {%- block SOCIAL_CARD -%}
 <meta property="og:description" content="{% if page.seo_description %}{{ page.seo_description|e }}{% endif %}">
 {%- if page.about_image -%}
