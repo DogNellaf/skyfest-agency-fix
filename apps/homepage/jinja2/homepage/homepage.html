@@ -205,9 +205,8 @@
 
       {%- if page.info_1_image_1 -%}
         <div class="col-lg-6 col-md-6 wow fadeIn">
-          <figure class="image-box" style="box-shadow: none;"> 
-		<img style="height: 500px; width: 570px; " src="{{ page.info_1_image_1.url }}" alt="">
-	  </figure>
+          <figure class="image-box">
+            <img style="height: 500px; width: 570px;" src="{{ page.info_1_image_1.url }}" alt=""></figure>
         </div>
       {%- endif -%}
 
@@ -318,7 +317,7 @@
 {%- endif -%}
 
 {%- if page.show_info_3 -%}
-<section class="content-block">
+<section class="content-block no-bottom-spacing">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-6 wow fadeIn">
