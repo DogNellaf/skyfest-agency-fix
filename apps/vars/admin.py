@@ -95,7 +95,7 @@ class SiteConfigAdmin(SingletonModelAdmin, TranslationAdmin):
         }),
         (None, {
             'classes': ('suit-tab', 'suit-tab-header'),
-            'fields': ('logo', 'font_color')
+            'fields': ('logo')
         }),
         (None, {
             'classes': ('suit-tab', 'suit-tab-footer'),
