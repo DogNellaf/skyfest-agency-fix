@@ -119,7 +119,7 @@
                       <div class="col-6 wow fadeIn">
                         <div class="price-box project-box" style="height: 80%;">
                           {%- if project.title -%}
-                            <h6 style="font-size: 14px;">{{ project.title }}</h6>
+                            <h6 style="font-size: 14px;"><a href="project.get_absolute_url()">{{ project.title }}</a></h6>
                           {%- endif -%}
 
                           {%- if project.excerpt -%}
