@@ -1,0 +1,26 @@
+bpython
+django
+django-ckeditor
+django-colorfield
+django-image-cropping
+django-import-export
+django-modeltranslation
+django-pure-pagination
+django-redis-cache
+-e git+https://github.com/darklow/django-suit#egg=django-suit
+django-solo
+flex
+easy-thumbnails
+flake8
+hiredis
+Jinja2
+Markdown
+pep8
+Pillow
+pytz
+psycopg2-binary
+raven
+redis
+simplejson
+transliterate
+uWSGI
