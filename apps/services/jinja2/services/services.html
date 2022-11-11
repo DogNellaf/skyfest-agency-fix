@@ -51,7 +51,7 @@
             {%- endif -%}
 
             {%- if service.title -%}
-              <h6>{{ service.title }}</h6>
+            <h6><a href="service.get_absolute_url()">{{ service.title }}</a></h6>
             {%- endif -%}
 
             {%- if service.excerpt -%}
